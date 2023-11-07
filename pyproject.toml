@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sqlearn"
+version = "0.1.0"
+description = ""
+authors = ["GodVov4 <volume245@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faker = "^19.13.0"
+prettytable = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
